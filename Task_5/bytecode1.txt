@@ -1,0 +1,214 @@
+Classfile /D:/Ucheba/java_optimization/Task_5/src/main/java/Methods.class
+  Last modified 16 мая 2024 г.; size 1854 bytes
+  SHA-256 checksum c0a431745fb6fa54f704a2c07a02eae40583276df6925115b9a58f2aa92684ed
+  Compiled from "Methods.java"
+public class Methods
+  minor version: 0
+  major version: 63
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #67                         // Methods
+  super_class: #2                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 4, attributes: 3
+Constant pool:
+   #1 = Methodref          #2.#3          // java/lang/Object."<init>":()V
+   #2 = Class              #4             // java/lang/Object
+   #3 = NameAndType        #5:#6          // "<init>":()V
+   #4 = Utf8               java/lang/Object
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = Methodref          #8.#9          // java/lang/String.length:()I
+   #8 = Class              #10            // java/lang/String
+   #9 = NameAndType        #11:#12        // length:()I
+  #10 = Utf8               java/lang/String
+  #11 = Utf8               length
+  #12 = Utf8               ()I
+  #13 = Methodref          #2.#14         // java/lang/Object.getClass:()Ljava/lang/Class;
+  #14 = NameAndType        #15:#16        // getClass:()Ljava/lang/Class;
+  #15 = Utf8               getClass
+  #16 = Utf8               ()Ljava/lang/Class;
+  #17 = Class              #18            // java/lang/Class
+  #18 = Utf8               java/lang/Class
+  #19 = Methodref          #17.#20        // java/lang/Class.getMethod:(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+  #20 = NameAndType        #21:#22        // getMethod:(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+  #21 = Utf8               getMethod
+  #22 = Utf8               (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+  #23 = Methodref          #24.#25        // java/lang/reflect/Method.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+  #24 = Class              #26            // java/lang/reflect/Method
+  #25 = NameAndType        #27:#28        // invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+  #26 = Utf8               java/lang/reflect/Method
+  #27 = Utf8               invoke
+  #28 = Utf8               (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+  #29 = Class              #30            // java/lang/Exception
+  #30 = Utf8               java/lang/Exception
+  #31 = Fieldref           #32.#33        // java/lang/System.err:Ljava/io/PrintStream;
+  #32 = Class              #34            // java/lang/System
+  #33 = NameAndType        #35:#36        // err:Ljava/io/PrintStream;
+  #34 = Utf8               java/lang/System
+  #35 = Utf8               err
+  #36 = Utf8               Ljava/io/PrintStream;
+  #37 = String             #38            // Can\'t invoke method
+  #38 = Utf8               Can\'t invoke method
+  #39 = Methodref          #40.#41        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #40 = Class              #42            // java/io/PrintStream
+  #41 = NameAndType        #43:#44        // println:(Ljava/lang/String;)V
+  #42 = Utf8               java/io/PrintStream
+  #43 = Utf8               println
+  #44 = Utf8               (Ljava/lang/String;)V
+  #45 = Methodref          #17.#46        // java/lang/Class.getField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #46 = NameAndType        #47:#48        // getField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #47 = Utf8               getField
+  #48 = Utf8               (Ljava/lang/String;)Ljava/lang/reflect/Field;
+  #49 = Methodref          #50.#51        // java/lang/reflect/Field.setAccessible:(Z)V
+  #50 = Class              #52            // java/lang/reflect/Field
+  #51 = NameAndType        #53:#54        // setAccessible:(Z)V
+  #52 = Utf8               java/lang/reflect/Field
+  #53 = Utf8               setAccessible
+  #54 = Utf8               (Z)V
+  #55 = Methodref          #50.#56        // java/lang/reflect/Field.set:(Ljava/lang/Object;Ljava/lang/Object;)V
+  #56 = NameAndType        #57:#58        // set:(Ljava/lang/Object;Ljava/lang/Object;)V
+  #57 = Utf8               set
+  #58 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)V
+  #59 = Methodref          #8.#60         // java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+  #60 = NameAndType        #61:#62        // valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+  #61 = Utf8               valueOf
+  #62 = Utf8               (Ljava/lang/Object;)Ljava/lang/String;
+  #63 = InvokeDynamic      #0:#64         // #0:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+  #64 = NameAndType        #65:#66        // makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+  #65 = Utf8               makeConcatWithConstants
+  #66 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #67 = Class              #68            // Methods
+  #68 = Utf8               Methods
+  #69 = Utf8               Code
+  #70 = Utf8               LineNumberTable
+  #71 = Utf8               getLength
+  #72 = Utf8               (Ljava/lang/String;)I
+  #73 = Utf8               callMethod
+  #74 = Utf8               (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+  #75 = Utf8               StackMapTable
+  #76 = Utf8               changeField
+  #77 = Utf8               (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
+  #78 = Utf8               SourceFile
+  #79 = Utf8               Methods.java
+  #80 = Utf8               BootstrapMethods
+  #81 = MethodHandle       6:#82          // REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #82 = Methodref          #83.#84        // java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #83 = Class              #85            // java/lang/invoke/StringConcatFactory
+  #84 = NameAndType        #65:#86        // makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #85 = Utf8               java/lang/invoke/StringConcatFactory
+  #86 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #87 = String             #88            // Error: \u0001
+  #88 = Utf8               Error: \u0001
+  #89 = Utf8               InnerClasses
+  #90 = Class              #91            // java/lang/invoke/MethodHandles$Lookup
+  #91 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #92 = Class              #93            // java/lang/invoke/MethodHandles
+  #93 = Utf8               java/lang/invoke/MethodHandles
+  #94 = Utf8               Lookup
+{
+  public Methods();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 4: 0
+
+  public static int getLength(java.lang.String);
+    descriptor: (Ljava/lang/String;)I
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokevirtual #7                  // Method java/lang/String.length:()I
+         4: ireturn
+      LineNumberTable:
+        line 6: 0
+
+  public static java.lang.Object callMethod(java.lang.Object, java.lang.String);
+    descriptor: (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=3, args_size=2
+         0: aload_0
+         1: invokevirtual #13                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+         4: aload_1
+         5: iconst_0
+         6: anewarray     #17                 // class java/lang/Class
+         9: invokevirtual #19                 // Method java/lang/Class.getMethod:(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+        12: astore_2
+        13: aload_2
+        14: aload_0
+        15: iconst_0
+        16: anewarray     #2                  // class java/lang/Object
+        19: invokevirtual #23                 // Method java/lang/reflect/Method.invoke:(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+        22: areturn
+        23: astore_2
+        24: getstatic     #31                 // Field java/lang/System.err:Ljava/io/PrintStream;
+        27: ldc           #37                 // String Can\'t invoke method
+        29: invokevirtual #39                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        32: aconst_null
+        33: areturn
+      Exception table:
+         from    to  target type
+             0    22    23   Class java/lang/Exception
+      LineNumberTable:
+        line 11: 0
+        line 12: 13
+        line 13: 23
+        line 14: 24
+        line 15: 32
+      StackMapTable: number_of_entries = 1
+        frame_type = 87 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Exception ]
+
+  public static void changeField(java.lang.Object, java.lang.String, java.lang.Object);
+    descriptor: (Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=4, args_size=3
+         0: aload_0
+         1: invokevirtual #13                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+         4: aload_1
+         5: invokevirtual #45                 // Method java/lang/Class.getField:(Ljava/lang/String;)Ljava/lang/reflect/Field;
+         8: astore_3
+         9: aload_3
+        10: iconst_1
+        11: invokevirtual #49                 // Method java/lang/reflect/Field.setAccessible:(Z)V
+        14: aload_3
+        15: aload_0
+        16: aload_2
+        17: invokevirtual #55                 // Method java/lang/reflect/Field.set:(Ljava/lang/Object;Ljava/lang/Object;)V
+        20: goto          39
+        23: astore_3
+        24: getstatic     #31                 // Field java/lang/System.err:Ljava/io/PrintStream;
+        27: aload_3
+        28: invokestatic  #59                 // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+        31: invokedynamic #63,  0             // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+        36: invokevirtual #39                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        39: return
+      Exception table:
+         from    to  target type
+             0    20    23   Class java/lang/Exception
+      LineNumberTable:
+        line 21: 0
+        line 22: 9
+        line 23: 14
+        line 26: 20
+        line 24: 23
+        line 25: 24
+        line 27: 39
+      StackMapTable: number_of_entries = 2
+        frame_type = 87 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Exception ]
+        frame_type = 15 /* same */
+}
+SourceFile: "Methods.java"
+BootstrapMethods:
+  0: #81 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #87 Error: \u0001
+InnerClasses:
+  public static final #94= #90 of #92;    // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
